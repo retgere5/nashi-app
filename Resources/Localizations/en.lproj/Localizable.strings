@@ -1912,6 +1912,7 @@
 "THE DOWNLOAD STOPPED RESPONDING. PLEASE TRY AGAIN." = "THE DOWNLOAD STOPPED RESPONDING. PLEASE TRY AGAIN.";
 "THE DOWNLOADED FILE CONTAINS NO VIDEO." = "THE DOWNLOADED FILE CONTAINS NO VIDEO.";
 "THE DOWNLOADED TOOLS ARE INCOMPLETE. PLEASE TRY SETUP AGAIN." = "THE DOWNLOADED TOOLS ARE INCOMPLETE. PLEASE TRY SETUP AGAIN.";
+"THE HTML FILE DID NOT FINISH RENDERING. NO PDF WAS EXPORTED." = "THE HTML FILE DID NOT FINISH RENDERING. NO PDF WAS EXPORTED.";
 "THE IMAGE DOWNLOAD ENDED EARLY." = "THE IMAGE DOWNLOAD ENDED EARLY.";
 "THE IMAGE ORDER MUST INCLUDE EVERY IMAGE ONCE." = "THE IMAGE ORDER MUST INCLUDE EVERY IMAGE ONCE.";
 "THE MEDIA SERVER REDIRECTED TO AN INSECURE URL." = "THE MEDIA SERVER REDIRECTED TO AN INSECURE URL.";
@@ -1930,6 +1931,7 @@
 "THIS FILE HAS NO VIDEO STREAM." = "THIS FILE HAS NO VIDEO STREAM.";
 "THIS FORMAT CAN BE IMPORTED. CHOOSE AN OUTPUT FORMAT IN THE SIDEBAR TO CONFIGURE ITS DEFAULTS." = "THIS FORMAT CAN BE IMPORTED. CHOOSE AN OUTPUT FORMAT IN THE SIDEBAR TO CONFIGURE ITS DEFAULTS.";
 "THIS FORMAT USES ITS ORIGINAL DOCUMENT STRUCTURE. NO EXPORT DEFAULTS ARE NEEDED." = "THIS FORMAT USES ITS ORIGINAL DOCUMENT STRUCTURE. NO EXPORT DEFAULTS ARE NEEDED.";
+"THIS HTML FILE WOULD NEED MORE THAN 1,000 PDF PAGES." = "THIS HTML FILE WOULD NEED MORE THAN 1,000 PDF PAGES.";
 "THIS IMAGE EXCEEDS 100 MP." = "THIS IMAGE EXCEEDS 100 MP.";
 "THIS IMAGE EXCEEDS 200 MB." = "THIS IMAGE EXCEEDS 200 MB.";
 "THIS IMAGE IS TOO LARGE (100 MP LIMIT)." = "THIS IMAGE IS TOO LARGE (100 MP LIMIT).";
@@ -1987,6 +1989,9 @@
 "Text size" = "Text size";
 "Texture" = "Texture";
 "That PDF size cannot be reached while keeping selectable text, links and annotations. Choose a larger target." = "That PDF size cannot be reached while keeping selectable text, links and annotations. Choose a larger target.";
+"The HTML file could not be opened. %@" = "The HTML file could not be opened. %@";
+"The HTML file could not be opened. %lld" = "The HTML file could not be opened. %lld";
+"The HTML file did not finish rendering. No PDF was exported." = "The HTML file did not finish rendering. No PDF was exported.";
 "The archive contains an unsafe path." = "The archive contains an unsafe path.";
 "The archive entry leaves its destination." = "The archive entry leaves its destination.";
 "The clipping exceeds 200 MB." = "The clipping exceeds 200 MB.";
@@ -2010,6 +2015,7 @@
 "The update does not contain Nashi." = "The update does not contain Nashi.";
 "The update signature is invalid. Your existing app was kept." = "The update signature is invalid. Your existing app was kept.";
 "These files have moved or were deleted." = "These files have moved or were deleted.";
+"This HTML file would need more than 1,000 PDF pages." = "This HTML file would need more than 1,000 PDF pages.";
 "This PDF contains no pages." = "This PDF contains no pages.";
 "This PDF has form fields or attachments that merging, splitting or reordering pages cannot keep. No copy was exported." = "This PDF has form fields or attachments that merging, splitting or reordering pages cannot keep. No copy was exported.";
 "This PDF has form fields or attachments that metadata cleanup cannot keep. No copy was exported." = "This PDF has form fields or attachments that metadata cleanup cannot keep. No copy was exported.";
@@ -2153,6 +2159,8 @@
 "Visualization" = "Visualization";
 "WAIT FOR THE PROCESSED PREVIEW TO FINISH BEFORE RESETTING." = "WAIT FOR THE PROCESSED PREVIEW TO FINISH BEFORE RESETTING.";
 "WAVEFORM" = "WAVEFORM";
+"WEBVIEW2 COULD NOT PRINT THIS HTML FILE TO PDF." = "WEBVIEW2 COULD NOT PRINT THIS HTML FILE TO PDF.";
+"WEBVIEW2 STOPPED WHILE RENDERING THE HTML FILE. NO PDF WAS EXPORTED." = "WEBVIEW2 STOPPED WHILE RENDERING THE HTML FILE. NO PDF WAS EXPORTED.";
 "WELCOME TO NASHI" = "WELCOME TO NASHI";
 "WELCOME…" = "WELCOME…";
 "WHEEL FINISH" = "WHEEL FINISH";
@@ -2168,6 +2176,8 @@
 "WORKING…" = "WORKING…";
 "Wait for the processed preview to finish before resetting." = "Wait for the processed preview to finish before resetting.";
 "Waveform" = "Waveform";
+"WebView2 could not print this HTML file to PDF." = "WebView2 could not print this HTML file to PDF.";
+"WebView2 stopped while rendering the HTML file. No PDF was exported." = "WebView2 stopped while rendering the HTML file. No PDF was exported.";
 "Welcome to Nashi" = "Welcome to Nashi";
 "Welcome…" = "Welcome…";
 "Wheel finish" = "Wheel finish";

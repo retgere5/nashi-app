@@ -41,6 +41,15 @@ public partial class App:Application
             catch(Exception error){failures.Add(error.ToString());}
             if(Interlocked.CompareExchange(ref finished,1,0)==0){Report(failures);Shutdown(failures.Count==0?0:1);}return;
         }
+        // HTML printing alone, without the desktop input of the full suite; writes html-pdf.json.
+        if(e.Args.Contains("--smoke-test-html"))
+        {
+            IsSmokeTest=true;ShutdownMode=ShutdownMode.OnExplicitShutdown;
+            var directory=Environment.GetEnvironmentVariable("NASHI_SMOKE_DIRECTORY")??Path.Combine(Path.GetTempPath(),"Nashi-HTML-"+Guid.NewGuid().ToString("N"));Directory.CreateDirectory(directory);
+            var failures=new List<string>();var checks=0;
+            try{HtmlPdfChecks.Run(directory,(passed,message)=>{checks++;if(!passed)failures.Add(message);});}catch(Exception error){failures.Add(error.ToString());}
+            File.WriteAllText(Path.Combine(directory,"html-pdf.json"),System.Text.Json.JsonSerializer.Serialize(new{checks,failures}));Shutdown(failures.Count==0?0:1);return;
+        }
         if(e.Args.Contains("--ui-audit"))
         {
             IsSmokeTest=true;ShutdownMode=ShutdownMode.OnExplicitShutdown;

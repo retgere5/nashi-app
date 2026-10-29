@@ -1912,6 +1912,7 @@
 "THE DOWNLOAD STOPPED RESPONDING. PLEASE TRY AGAIN." = "LE TÉLÉCHARGEMENT NE RÉPOND PLUS. VEUILLEZ RÉESSAYER.";
 "THE DOWNLOADED FILE CONTAINS NO VIDEO." = "LE FICHIER TÉLÉCHARGÉ NE CONTIENT PAS DE VIDÉO.";
 "THE DOWNLOADED TOOLS ARE INCOMPLETE. PLEASE TRY SETUP AGAIN." = "LES OUTILS TÉLÉCHARGÉS SONT INCOMPLETS. VEUILLEZ RELANCER LA CONFIGURATION.";
+"THE HTML FILE DID NOT FINISH RENDERING. NO PDF WAS EXPORTED." = "LE RENDU DU FICHIER HTML N’A PAS PU SE TERMINER. AUCUN PDF N’A ÉTÉ EXPORTÉ.";
 "THE IMAGE DOWNLOAD ENDED EARLY." = "LE TÉLÉCHARGEMENT DE L’IMAGE S’EST TERMINÉ PRÉMATURÉMENT.";
 "THE IMAGE ORDER MUST INCLUDE EVERY IMAGE ONCE." = "L’ORDRE DES IMAGES DOIT INCLURE CHAQUE IMAGE UNE FOIS.";
 "THE MEDIA SERVER REDIRECTED TO AN INSECURE URL." = "LE SERVEUR MULTIMÉDIA A REDIRIGÉ VERS UNE URL NON SÉCURISÉE.";
@@ -1930,6 +1931,7 @@
 "THIS FILE HAS NO VIDEO STREAM." = "CE FICHIER N’A PAS DE FLUX VIDÉO.";
 "THIS FORMAT CAN BE IMPORTED. CHOOSE AN OUTPUT FORMAT IN THE SIDEBAR TO CONFIGURE ITS DEFAULTS." = "CE FORMAT PEUT ÊTRE IMPORTÉ. CHOISISSEZ UN FORMAT DE SORTIE DANS LA BARRE LATÉRALE POUR CONFIGURER SES RÉGLAGES PAR DÉFAUT.";
 "THIS FORMAT USES ITS ORIGINAL DOCUMENT STRUCTURE. NO EXPORT DEFAULTS ARE NEEDED." = "CE FORMAT UTILISE LA STRUCTURE D’ORIGINE DU DOCUMENT. AUCUN RÉGLAGE D’EXPORT PAR DÉFAUT N’EST NÉCESSAIRE.";
+"THIS HTML FILE WOULD NEED MORE THAN 1,000 PDF PAGES." = "CE FICHIER HTML NÉCESSITERAIT PLUS DE 1 000 PAGES PDF.";
 "THIS IMAGE EXCEEDS 100 MP." = "CETTE IMAGE DÉPASSE 100 MPX.";
 "THIS IMAGE EXCEEDS 200 MB." = "CETTE IMAGE DÉPASSE 200 MO.";
 "THIS IMAGE IS TOO LARGE (100 MP LIMIT)." = "CETTE IMAGE EST TROP GRANDE (LIMITE DE 100 MPX).";
@@ -1987,6 +1989,9 @@
 "Text size" = "Taille du texte";
 "Texture" = "Texture";
 "That PDF size cannot be reached while keeping selectable text, links and annotations. Choose a larger target." = "Cette taille de PDF est impossible à atteindre en conservant le texte sélectionnable, les liens et les annotations. Choisissez une cible plus grande.";
+"The HTML file could not be opened. %@" = "Le fichier HTML n’a pas pu être ouvert. %@";
+"The HTML file could not be opened. %lld" = "Le fichier HTML n’a pas pu être ouvert. %lld";
+"The HTML file did not finish rendering. No PDF was exported." = "Le rendu du fichier HTML n’a pas pu se terminer. Aucun PDF n’a été exporté.";
 "The archive contains an unsafe path." = "L’archive contient un chemin non sûr.";
 "The archive entry leaves its destination." = "L’entrée de l’archive sort de sa destination.";
 "The clipping exceeds 200 MB." = "Le fragment dépasse 200 Mo.";
@@ -2010,6 +2015,7 @@
 "The update does not contain Nashi." = "La mise à jour ne contient pas Nashi.";
 "The update signature is invalid. Your existing app was kept." = "La signature de la mise à jour est invalide. Votre app existante a été conservée.";
 "These files have moved or were deleted." = "Ces fichiers ont été déplacés ou supprimés.";
+"This HTML file would need more than 1,000 PDF pages." = "Ce fichier HTML nécessiterait plus de 1 000 pages PDF.";
 "This PDF contains no pages." = "Ce PDF ne contient aucune page.";
 "This PDF has form fields or attachments that merging, splitting or reordering pages cannot keep. No copy was exported." = "Ce PDF contient des champs de formulaire ou des pièces jointes que la fusion, la division ou la réorganisation des pages ne peut pas conserver. Aucune copie n’a été exportée.";
 "This PDF has form fields or attachments that metadata cleanup cannot keep. No copy was exported." = "Ce PDF contient des champs de formulaire ou des pièces jointes que le nettoyage des métadonnées ne peut pas conserver. Aucune copie n’a été exportée.";
@@ -2153,6 +2159,8 @@
 "Visualization" = "Visualisation";
 "WAIT FOR THE PROCESSED PREVIEW TO FINISH BEFORE RESETTING." = "ATTENDEZ LA FIN DE L’APERÇU TRAITÉ AVANT DE RÉINITIALISER.";
 "WAVEFORM" = "FORME D’ONDE";
+"WEBVIEW2 COULD NOT PRINT THIS HTML FILE TO PDF." = "WEBVIEW2 COULD NOT PRINT THIS HTML FILE TO PDF.";
+"WEBVIEW2 STOPPED WHILE RENDERING THE HTML FILE. NO PDF WAS EXPORTED." = "WEBVIEW2 STOPPED WHILE RENDERING THE HTML FILE. NO PDF WAS EXPORTED.";
 "WELCOME TO NASHI" = "BIENVENUE DANS NASHI";
 "WELCOME…" = "BIENVENUE…";
 "WHEEL FINISH" = "FINITION DE LA ROUE";
@@ -2168,6 +2176,8 @@
 "WORKING…" = "TRAITEMENT EN COURS…";
 "Wait for the processed preview to finish before resetting." = "Attendez la fin de l’aperçu traité avant de réinitialiser.";
 "Waveform" = "Forme d’onde";
+"WebView2 could not print this HTML file to PDF." = "WebView2 could not print this HTML file to PDF.";
+"WebView2 stopped while rendering the HTML file. No PDF was exported." = "WebView2 stopped while rendering the HTML file. No PDF was exported.";
 "Welcome to Nashi" = "Bienvenue dans Nashi";
 "Welcome…" = "Bienvenue…";
 "Wheel finish" = "Finition de la roue";

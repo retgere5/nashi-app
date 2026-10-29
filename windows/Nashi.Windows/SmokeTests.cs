@@ -124,6 +124,7 @@ internal static class SmokeTests
         if(Environment.GetEnvironmentVariable("GITHUB_ACTIONS")=="true")checks+=ParitySmokeTests.Run(root,window,source,bitmap,testTools);
         DesktopParityChecks.Run(root,window,source,importedText,importedImage,testTools,Check);
         PdfPreviewChecks.Run(root,Check);
+        HtmlPdfChecks.Run(root,Check);
         var toast=new ToastWindow(window,null);toast.Show();Check(toast.WindowStyle==WindowStyle.None&&toast.ResizeMode==ResizeMode.NoResize,"Toast has window chrome");toast.Update(new(.42,"Encoding your fresh copy…"));toast.UpdateLayout();Capture(toast,"windows-progress.png");toast.Close();window.Close();
         var restarted=new MainWindow(library:new LibraryStore(library.DirectoryPath),checkForUpdates:false);restarted.Show();DesktopInput.Pump();
         Check(new LibraryStore(library.DirectoryPath).Entries.Count==4&&File.Exists(importedText)&&File.Exists(importedImage),"Restart lost Library or clipboard files");Capture(restarted,"windows-home-empty.png");restarted.Close();

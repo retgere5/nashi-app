@@ -1912,6 +1912,7 @@
 "THE DOWNLOAD STOPPED RESPONDING. PLEASE TRY AGAIN." = "İNDİRME YANIT VERMİYOR. LÜTFEN TEKRAR DENE.";
 "THE DOWNLOADED FILE CONTAINS NO VIDEO." = "İNDİRİLEN DOSYADA VİDEO YOK.";
 "THE DOWNLOADED TOOLS ARE INCOMPLETE. PLEASE TRY SETUP AGAIN." = "İNDİRİLEN ARAÇLAR EKSİK. KURULUMU TEKRAR DENE.";
+"THE HTML FILE DID NOT FINISH RENDERING. NO PDF WAS EXPORTED." = "HTML DOSYASININ İŞLENMESİ BİTMEDİ. PDF DIŞA AKTARILMADI.";
 "THE IMAGE DOWNLOAD ENDED EARLY." = "GÖRSEL İNDİRMESİ ERKEN SONA ERDİ.";
 "THE IMAGE ORDER MUST INCLUDE EVERY IMAGE ONCE." = "GÖRSEL SIRASINDA HER GÖRSEL BİR KEZ YER ALMALI.";
 "THE MEDIA SERVER REDIRECTED TO AN INSECURE URL." = "MEDYA SUNUCUSU GÜVENLİ OLMAYAN BİR ADRESE YÖNLENDİRDİ.";
@@ -1930,6 +1931,7 @@
 "THIS FILE HAS NO VIDEO STREAM." = "BU DOSYADA GÖRÜNTÜ YOK.";
 "THIS FORMAT CAN BE IMPORTED. CHOOSE AN OUTPUT FORMAT IN THE SIDEBAR TO CONFIGURE ITS DEFAULTS." = "BU BİÇİM İÇE AKTARILABİLİR. VARSAYILANLARI AYARLAMAK İÇİN KENAR ÇUBUĞUNDAN BİR ÇIKTI BİÇİMİ SEÇ.";
 "THIS FORMAT USES ITS ORIGINAL DOCUMENT STRUCTURE. NO EXPORT DEFAULTS ARE NEEDED." = "BU BİÇİM ORİJİNAL BELGE YAPISINI KULLANIR. DIŞA AKTARMA TERCİHİ GEREKMEZ.";
+"THIS HTML FILE WOULD NEED MORE THAN 1,000 PDF PAGES." = "BU HTML DOSYASI 1.000'DEN FAZLA PDF SAYFASI GEREKTİRİR.";
 "THIS IMAGE EXCEEDS 100 MP." = "BU GÖRSEL 100 MP'Yİ AŞIYOR.";
 "THIS IMAGE EXCEEDS 200 MB." = "BU GÖRSEL 200 MB'I AŞIYOR.";
 "THIS IMAGE IS TOO LARGE (100 MP LIMIT)." = "BU GÖRSEL ÇOK BÜYÜK (SINIR 100 MP).";
@@ -1987,6 +1989,9 @@
 "Text size" = "Metin boyutu";
 "Texture" = "Doku";
 "That PDF size cannot be reached while keeping selectable text, links and annotations. Choose a larger target." = "Seçilebilir metin, bağlantılar ve notlar korunarak bu PDF boyutuna inilemiyor. Daha büyük bir hedef seç.";
+"The HTML file could not be opened. %@" = "HTML dosyası açılamadı. %@";
+"The HTML file could not be opened. %lld" = "HTML dosyası açılamadı. %lld";
+"The HTML file did not finish rendering. No PDF was exported." = "HTML dosyasının işlenmesi bitmedi. PDF dışa aktarılmadı.";
 "The archive contains an unsafe path." = "Arşivde güvenli olmayan bir yol var.";
 "The archive entry leaves its destination." = "Arşivdeki bir öğe hedef klasörün dışına çıkıyor.";
 "The clipping exceeds 200 MB." = "Metin kırpıntısı 200 MB'ı aşıyor.";
@@ -2010,6 +2015,7 @@
 "The update does not contain Nashi." = "Güncelleme Nashi'yi içermiyor.";
 "The update signature is invalid. Your existing app was kept." = "Güncelleme imzası geçersiz. Mevcut uygulaman korundu.";
 "These files have moved or were deleted." = "Bu dosyalar taşınmış veya silinmiş.";
+"This HTML file would need more than 1,000 PDF pages." = "Bu HTML dosyası 1.000'den fazla PDF sayfası gerektirir.";
 "This PDF contains no pages." = "Bu PDF'de sayfa yok.";
 "This PDF has form fields or attachments that merging, splitting or reordering pages cannot keep. No copy was exported." = "Bu PDF'de birleştirme, bölme veya sayfaları yeniden sıralama sırasında korunamayan form alanları ya da ekler var. Kopya dışa aktarılmadı.";
 "This PDF has form fields or attachments that metadata cleanup cannot keep. No copy was exported." = "Bu PDF'de meta veri temizliği sırasında korunamayan form alanları ya da ekler var. Kopya dışa aktarılmadı.";
@@ -2153,6 +2159,8 @@
 "Visualization" = "Görselleştirme";
 "WAIT FOR THE PROCESSED PREVIEW TO FINISH BEFORE RESETTING." = "SIFIRLAMADAN ÖNCE İŞLENMİŞ ÖNİZLEMENİN BİTMESİNİ BEKLE.";
 "WAVEFORM" = "DALGA BİÇİMİ";
+"WEBVIEW2 COULD NOT PRINT THIS HTML FILE TO PDF." = "WEBVİEW2 BU HTML DOSYASINI PDF OLARAK YAZDIRAMADI.";
+"WEBVIEW2 STOPPED WHILE RENDERING THE HTML FILE. NO PDF WAS EXPORTED." = "WEBVİEW2, HTML DOSYASINI İŞLERKEN DURDU. PDF DIŞA AKTARILMADI.";
 "WELCOME TO NASHI" = "NASHI'YE HOŞ GELDİN";
 "WELCOME…" = "HOŞ GELDİN…";
 "WHEEL FINISH" = "ÇARK GÖRÜNÜMÜ";
@@ -2168,6 +2176,8 @@
 "WORKING…" = "İŞLENİYOR…";
 "Wait for the processed preview to finish before resetting." = "Sıfırlamadan önce işlenmiş önizlemenin bitmesini bekle.";
 "Waveform" = "Dalga biçimi";
+"WebView2 could not print this HTML file to PDF." = "WebView2 bu HTML dosyasını PDF olarak yazdıramadı.";
+"WebView2 stopped while rendering the HTML file. No PDF was exported." = "WebView2, HTML dosyasını işlerken durdu. PDF dışa aktarılmadı.";
 "Welcome to Nashi" = "Nashi'ye Hoş Geldin";
 "Welcome…" = "Hoş Geldin…";
 "Wheel finish" = "Çark görünümü";
